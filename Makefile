@@ -6,3 +6,7 @@ export GO111MODULE = on
 build:
 	go build  -o ./build
 	go build -mod vendor -o build
+
+deps:
+	go mod vendor
+	
