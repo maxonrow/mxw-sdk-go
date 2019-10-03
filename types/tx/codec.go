@@ -11,7 +11,7 @@ var Cdc = amino.NewCodec()
 
 func RegisterCodec(cdc *amino.Codec) {
 	cdc.RegisterInterface((*Tx)(nil), nil)
-	cdc.RegisterConcrete(StdTx{}, "auth/StdTx", nil)
+	cdc.RegisterConcrete(StdTx{}, "cosmos-sdk/StdTx", nil)
 	msg.RegisterCodec(cdc)
 }
 

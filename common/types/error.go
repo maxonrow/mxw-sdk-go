@@ -10,8 +10,6 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 	cmn "github.com/tendermint/tendermint/libs/common"
-
-	sdkerrors "github.com/maxonrow/mxw-sdk-go/types/error"
 )
 
 // CodeType - ABCI code identifier within codespace
