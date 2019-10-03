@@ -9,3 +9,4 @@ Prerequisites
 Steps:
 1. Clone the project repository `git clone https://github.com/maxonrow/mxw-sdk-go`.
 2. Command of `make build`.
+3. Command of `make deps`.
